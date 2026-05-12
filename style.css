@@ -1,0 +1,45 @@
+body {
+    background-color: #121212;
+    color: #9bc989;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.link-card {
+    display: block;
+    background-color: #1e1e1e;
+    color: #4b5f43;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.link-card:hover {
+    background-color: #2b2330;
+    border: 1px solid #4b5f43;
+    transform: scale(1.01);
+}
+
+.math-bold {
+    font-family: "Cambria Math", serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    text-align: left;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
